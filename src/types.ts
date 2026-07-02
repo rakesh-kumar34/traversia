@@ -102,6 +102,8 @@ export interface AlgoModule {
   pseudocode: string[];
   complexity: { time: string; space: string };
   interviewTips: string[];
+  /** short explanation of the mental model — merged in from concepts.ts */
+  concept?: string[];
   /** builds the full step sequence for one run */
   generateSteps: () => Step[];
 }

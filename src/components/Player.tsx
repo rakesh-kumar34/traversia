@@ -156,6 +156,14 @@ export default function Player({ algo, onBack }: Props) {
         </div>
 
         <aside className="side-panel">
+          {algo.concept && (
+            <details className="concept-panel">
+              <summary>🧠 Understand the idea</summary>
+              {algo.concept.map((para, i) => (
+                <p key={i}>{para}</p>
+              ))}
+            </details>
+          )}
           <div className="code-panel">
             <div className="panel-title">Pseudocode</div>
             <pre>

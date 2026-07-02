@@ -341,6 +341,28 @@ button {
   flex-direction: column;
   gap: 16px;
 }
+.concept-panel {
+  background: var(--c-panel);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius);
+  padding: 12px 16px;
+}
+.concept-panel summary {
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--c-accent-2);
+  user-select: none;
+}
+.concept-panel[open] summary {
+  margin-bottom: 4px;
+}
+.concept-panel p {
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: var(--c-text-dim);
+  margin: 10px 0 0;
+}
 .code-panel,
 .info-panel {
   background: var(--c-panel);
