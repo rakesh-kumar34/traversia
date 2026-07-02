@@ -48,7 +48,13 @@ export default function Home({ onPick }: { onPick: (algo: AlgoModule) => void })
           </div>
         </section>
       ))}
-      <footer className="home-footer">Answer the ⚡ checkpoints during playback to score points — streaks multiply.</footer>
+      <footer className="home-footer">
+        Answer the ⚡ checkpoints during playback to score points — streaks multiply.
+        <div className="copyright">
+          © 2026 <a href="https://rakeshcgk.com">Rakesh Kumar</a> · MIT licensed ·{' '}
+          <a href="https://github.com/rakesh-kumar34/algoarcade">source</a>
+        </div>
+      </footer>
     </div>
   );
 }

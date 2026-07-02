@@ -219,6 +219,17 @@ button {
   font-size: 13px;
   margin-top: 48px;
 }
+.copyright {
+  margin-top: 10px;
+  font-size: 12px;
+}
+.copyright a {
+  color: var(--c-accent-2);
+  text-decoration: none;
+}
+.copyright a:hover {
+  text-decoration: underline;
+}
 
 /* ---------- player layout ---------- */
 
