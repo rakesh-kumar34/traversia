@@ -1,5 +1,7 @@
 # CLAUDE.md
 
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
 Traversia — an animated, quiz-driven algorithm learning game (React 19 + TypeScript + Vite, no backend).
 
 ## Commands
