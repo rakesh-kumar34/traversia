@@ -10,7 +10,7 @@ export default function Home({ onPick }: { onPick: (algo: AlgoModule) => void })
     <div className="home">
       <header className="home-header">
         <h1>
-          Traver<span className="accent">sia</span>
+          Algo<span className="accent">Arcade</span>
         </h1>
         <p className="subtitle">
           Watch classic interview algorithms run step by step — and prove you can predict their next move.

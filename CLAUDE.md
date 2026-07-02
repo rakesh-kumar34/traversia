@@ -2,7 +2,7 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-Traversia — an animated, quiz-driven algorithm learning game (React 19 + TypeScript + Vite, no backend).
+AlgoArcade — an animated, quiz-driven algorithm learning game (React 19 + TypeScript + Vite, no backend).
 
 ## Commands
 
@@ -20,7 +20,7 @@ Three state shapes cover all visualizations, rendered by the matching component 
 - `GraphState` → `GraphViz`: SVG; node coordinates are 0–100 layout units, nodes have a `status` (unvisited/frontier/current/visited) and optional `sub` label (distances, in-degrees), edges have a `status` (idle/active/included/rejected)
 - `TableState` → `TableViz`: DP grids with row/col labels and per-cell roles
 
-`Player.tsx` is the generic playback engine: play/pause/step/speed, progress, scoring (+10 per correct quiz, +5 × streak bonus), and quiz gating — advancing into a step that carries an unanswered quiz pauses and shows `QuizOverlay` before the step is applied. Results persist via `src/progress.ts` (localStorage key `traversia-progress`).
+`Player.tsx` is the generic playback engine: play/pause/step/speed, progress, scoring (+10 per correct quiz, +5 × streak bonus), and quiz gating — advancing into a step that carries an unanswered quiz pauses and shows `QuizOverlay` before the step is applied. Results persist via `src/progress.ts` (localStorage key `algoarcade-progress`).
 
 ## Adding an algorithm
 

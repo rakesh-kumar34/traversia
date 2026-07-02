@@ -5,7 +5,7 @@ export interface AlgoResult {
   completions: number;
 }
 
-const KEY = 'traversia-progress';
+const KEY = 'algoarcade-progress';
 
 export function loadProgress(): Record<string, AlgoResult> {
   try {

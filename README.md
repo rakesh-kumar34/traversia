@@ -1,10 +1,10 @@
-# Traversia
+# AlgoArcade
 
 **Interview algorithms, animated — watch them run, then prove you can predict their next move.**
 
-Traversia is an interactive learning game for engineers preparing for senior/staff-level interviews at big tech. Instead of passively reading about algorithms, you watch them execute step by step with synchronized pseudocode — and the playback periodically stops at ⚡ checkpoints that quiz you on what happens next. Correct answers build score and streaks; every algorithm ships with complexity analysis and interview tips.
+AlgoArcade is an interactive learning game for engineers preparing for senior/staff-level interviews at big tech. Instead of passively reading about algorithms, you watch them execute step by step with synchronized pseudocode — and the playback periodically stops at ⚡ checkpoints that quiz you on what happens next. Correct answers build score and streaks; every algorithm ships with complexity analysis and interview tips.
 
-![Traversia home screen](docs/home.png)
+![AlgoArcade home screen](docs/home.png)
 
 ## The learning loop
 
